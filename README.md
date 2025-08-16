@@ -1,5 +1,6 @@
 # WASM Github Pages Deployment
-This is a repo that documents how to publish a WASM generated Blazor Server page to Github Pages
+This is a repo that documents how to publish a WASM-generated Blazor Server page to GitHub Pages
+The file provided will generate appropriate files on the gh-pages branch every time the branch 'main' is updated. This can be easily configured
 
 ## Setup
 - Copy .nojekyll file to your git root
@@ -8,7 +9,7 @@ This is a repo that documents how to publish a WASM generated Blazor Server page
 - Replace NAME.sln with your Blazor WASM solution file name
 - Commit changes
 
-- Depending on your .NET version you might have to change that as well
+- Depending on your .NET version, you might have to change that as well
 
 ## WASM .NET6
-If you are using .NET6 WASM, use the main_net6.yml version instead, as it will install wasm-tools-net6 which are required to run wasm build.
+If you are using .NET6 WASM, use the main_net6.yml version instead, as it will install wasm-tools-net6, which are required to run wasm build.
